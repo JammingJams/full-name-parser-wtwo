@@ -8,7 +8,7 @@ public class FullNameParserApp {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Put your full name");
+        System.out.println("Put your fulls name");
         String fullName = sc.nextLine();
 
         String[] tempFull = fullName.trim().split("\\s+");
