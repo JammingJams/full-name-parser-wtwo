@@ -11,7 +11,7 @@ public class FullNameParserApp {
         System.out.println("Put your fulls name");
         String fullName = sc.nextLine();
 
-        String[] tempFull = fullName.trim().split("\\s+");
+        String[] tempFull = fullName.trim().split(" ");
 
         int lengthFullName = tempFull.length;
 
