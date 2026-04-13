@@ -23,7 +23,7 @@ public class FullNameParserApp {
         else if (lengthFullName > 0) {
             System.out.println("First name: " + tempFull[0].substring(0, 1).toUpperCase() + tempFull[0].substring(1).toLowerCase() );
             System.out.println("Middle name: (none)");
-            System.out.println("Last name: " + tempFull[2].substring(0, 1).toUpperCase() + tempFull[2].substring(1).toLowerCase() );
+            System.out.println("Last name: " + tempFull[1].substring(0, 1).toUpperCase() + tempFull[1].substring(1).toLowerCase() );
         }
         else {
             System.out.println("Invalid input");
