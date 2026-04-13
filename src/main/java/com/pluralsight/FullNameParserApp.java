@@ -15,12 +15,12 @@ public class FullNameParserApp {
 
         int lengthFullName = tempFull.length;
 
-        if (lengthFullName > 2) {
+        if (lengthFullName == 3) {
             System.out.println("First name: " + tempFull[0].substring(0, 1).toUpperCase() + tempFull[0].substring(1).toLowerCase() );
             System.out.println("Middle name: " + tempFull[1].substring(0, 1).toUpperCase() + tempFull[1].substring(1).toLowerCase() );
             System.out.println("Last name: " + tempFull[2].substring(0, 1).toUpperCase() + tempFull[2].substring(1).toLowerCase() );
         }
-        else if (lengthFullName > 0) {
+        else if (lengthFullName == 2) {
             System.out.println("First name: " + tempFull[0].substring(0, 1).toUpperCase() + tempFull[0].substring(1).toLowerCase() );
             System.out.println("Middle name: (none)");
             System.out.println("Last name: " + tempFull[1].substring(0, 1).toUpperCase() + tempFull[1].substring(1).toLowerCase() );
