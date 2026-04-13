@@ -2,16 +2,16 @@ package com.pluralsight;
 
 import java.util.Scanner;
 
-import java.util.InputMismatchException;
 
 public class FullNameParserApp {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Put your fulls name");
+        System.out.println("Put your full name");
         String fullName = sc.nextLine();
 
-        String[] tempFull = fullName.trim().split(" ");
+        //String[] tempFull = fullName.trim().split("\\s+");
+        String[] tempFull = fullName.split(" ");
 
         int lengthFullName = tempFull.length;
 
